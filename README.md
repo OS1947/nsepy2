@@ -44,7 +44,7 @@ scrip_list.columns = ['SYMBOL', 'NAME OF COMPANY', 'SERIES', 'DATE OF LISTING','
 </td>
 </tr>
     <tr>
-      <td>sdlkf</td>
+      <td>````sdlkf````</td>
       <td>sdfsdfgetr</td>
     </tr>
   </tbody>
