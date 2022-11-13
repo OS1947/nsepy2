@@ -22,22 +22,35 @@ At this moment I am just preparing some documentation so that it'll be easier fo
 
 <table>
  <thead>
-    <tr>
-      <th>Usage</th>
-      <th>Functions</th>
-    </tr>
+  <tr>
+    <th>Usage</th>
+    <th>Functions</th>
+  </tr>
   </thead>
   <tbody>
     <tr>
       <td>List of securities / scrips traded at NSE</td>
-      <td><code>from nsepy.symbols import *
-scrip_list = get_symbol_list()
-scrip_list.columns = ['SYMBOL', 'NAME OF COMPANY', 'SERIES', 'DATE OF LISTING',
-       'PAID UP VALUE', 'MARKET LOT', 'ISIN NUMBER', 'FACE VALUE']</code></td>
+      <td>
+```python
+
+      from nsepy.symbols import *
+      scrip_list = get_symbol_list()
+      scrip_list.columns = ['SYMBOL', 'NAME OF COMPANY', 'SERIES', 'DATE OF LISTING','PAID UP VALUE', 'MARKET LOT', 'ISIN NUMBER', 'FACE VALUE']
+
+```
+
+      </td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>Historical EOD data, From Date until To date</td>
+      <td>
+```python
+
+data_2001 = get_history(symbol="SBIN", start=date(2001,1,1), end=date(2001,12,31))
+
+```
+      
+      </td>
     </tr>
   </tbody>
 </table>
