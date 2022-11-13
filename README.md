@@ -31,21 +31,21 @@ At this moment I am just preparing some documentation so that it'll be easier fo
     <tr>
       <td>List of securities / scrips traded at NSE</td>
       <td>
-      ```python
+
+```python
         
-        from nsepy.symbols import *
+from nsepy.symbols import *
+scrip_list = get_symbol_list()
+scrip_list.columns = ['SYMBOL', 'NAME OF COMPANY', 'SERIES', 'DATE OF LISTING','PAID UP VALUE', 'MARKET LOT', 'ISIN NUMBER', 'FACE VALUE']
+  
         
-        scrip_list = get_symbol_list()
-        scrip_list.columns = ['SYMBOL', 'NAME OF COMPANY', 'SERIES', 'DATE OF LISTING',
-       'PAID UP VALUE', 'MARKET LOT', 'ISIN NUMBER', 'FACE VALUE']
-       
-        
-        ```
-      </td>
-    </tr>
+```
+
+</td>
+</tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>sdlkf</td>
+      <td>sdfsdfgetr</td>
     </tr>
   </tbody>
 </table>
