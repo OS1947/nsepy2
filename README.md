@@ -31,6 +31,7 @@ At this moment I am just preparing some documentation so that it'll be easier fo
     <tr>
       <td>List of securities / scrips traded at NSE</td>
       <td>
+
 ```python
 
       from nsepy.symbols import *
