@@ -1,0 +1,15 @@
+installed following packages
+
+beautifulsoup4==4.7.1
+Click==7.0
+Sphinx
+
+lxml==4.3.4 (installed 4.9.1 version as the old version didn't work)
+
+numpy==1.16.4
+pandas==0.24.2 (installed pip install pandas==1.4.2)
+requests==2.22.0
+six==1.12.0
+
+nsepy 0.8
+matplotlib 3.5.3
