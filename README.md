@@ -45,6 +45,7 @@ At this moment I am just preparing some documentation so that it'll be easier fo
     <tr>
       <td>Historical EOD data, From Date until To date</td>
       <td>
+
 ```python
 
 data_2001 = get_history(symbol="SBIN", start=date(2001,1,1), end=date(2001,12,31))
@@ -52,7 +53,7 @@ data_2001 = get_history(symbol="SBIN", start=date(2001,1,1), end=date(2001,12,31
 
 ```
       
-      </td>
+</td>
     </tr>
   </tbody>
 </table>
