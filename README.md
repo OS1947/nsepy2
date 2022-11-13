@@ -30,10 +30,13 @@ At this moment I am just preparing some documentation so that it'll be easier fo
   <tbody>
     <tr>
       <td>List of securities / scrips traded at NSE</td>
-      <td><code>from nsepy.symbols import *
-scrip_list = get_symbol_list()
-scrip_list.columns = ['SYMBOL', 'NAME OF COMPANY', 'SERIES', 'DATE OF LISTING',
+      <td>'''
+      from nsepy.symbols import *
+      
+      scrip_list = get_symbol_list()
+      scrip_list.columns = ['SYMBOL', 'NAME OF COMPANY', 'SERIES', 'DATE OF LISTING',
        'PAID UP VALUE', 'MARKET LOT', 'ISIN NUMBER', 'FACE VALUE']</code></td>
+       '''
     </tr>
     <tr>
       <td></td>
