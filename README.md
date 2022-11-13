@@ -26,10 +26,14 @@ At this moment I am just preparing some documentation so that it'll be easier fo
   <li>Description</li>
 </div>
 <table>
+  <tr>
     <td>col-1</td>
     <td>col-2</td>
+  </tr>
+  <tr>
     <td>col-1</td>
     <td>col-2</td>
+  </tr>
 </table>
 
 
