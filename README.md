@@ -31,7 +31,6 @@ At this moment I am just preparing some documentation so that it'll be easier fo
     <tr>
       <td>List of securities / scrips traded at NSE</td>
       <td>
-<<<<<<< HEAD
 ```python
 
       from nsepy.symbols import *
@@ -53,23 +52,6 @@ data_2001 = get_history(symbol="SBIN", start=date(2001,1,1), end=date(2001,12,31
 ```
       
       </td>
-=======
-
-```python
-        
-from nsepy.symbols import *
-scrip_list = get_symbol_list()
-scrip_list.columns = ['SYMBOL', 'NAME OF COMPANY', 'SERIES', 'DATE OF LISTING','PAID UP VALUE', 'MARKET LOT', 'ISIN NUMBER', 'FACE VALUE']
-  
-        
-```
-
-</td>
-</tr>
-    <tr>
-      <td>````sdlkf````</td>
-      <td>sdfsdfgetr</td>
->>>>>>> bfb90cca78de5b338d76c17c1af339730d1f3d9d
     </tr>
   </tbody>
 </table>
