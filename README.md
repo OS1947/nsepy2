@@ -19,6 +19,13 @@ This project is inspired from 'NSEpy' -> https://github.com/swapniljariwala/nsep
 <h3>Current phase: Documentation for NSEpy</h3>
 At this moment I am just preparing some documentation so that it'll be easier for others to use 'NSEpy'.
 
+<div class="left_col" style="margin-left:0, margin-right=auto, width=30%;">
+  <li>first item</li>
+</div>
+<div class="right_col" style="margin-left:auto, margin-right=0, width=65%;">
+  <li>Description</li>
+</div>
+
 
 
 
