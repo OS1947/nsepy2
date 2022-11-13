@@ -39,8 +39,8 @@ At this moment I am just preparing some documentation so that it'll be easier fo
 
 ```
 
-      </td>
-    </tr>
+</td>
+</tr>
     <tr>
       <td>Historical EOD data, From Date until To date</td>
       <td>
