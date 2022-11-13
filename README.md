@@ -48,6 +48,7 @@ At this moment I am just preparing some documentation so that it'll be easier fo
 
 data_2001 = get_history(symbol="SBIN", start=date(2001,1,1), end=date(2001,12,31))
 
+
 ```
       
       </td>
